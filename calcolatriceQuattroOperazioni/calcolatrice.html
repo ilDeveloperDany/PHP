@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice di operazioni fondamentali</title>
+</head>
+<body>
+    <h1>Calcolatrice di operazioni fondamentali</h1>
+    <form action="calcolatrice.php" method="get">
+        <p style="color: red;">Inserisci operandi e operatori validi</p>
+        <p>Sono ammessi soltanto gli operatori + - * /</p>
+        <input type="number" name="operando1" id="operando1" placeholder="Primo operando" required>
+        <input type="text" name="operatore" id="operatore" placeholder="Operatore" required> 
+        <input type="number" name="operando2" id="operando2" placeholder="Secondo operando" required>
+        <input type="submit" value="=">
+    </form>
+</body>
+</html>
